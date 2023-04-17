@@ -1,14 +1,14 @@
 if SHIELD_KPUK_RIGHT
 
 config ZMK_KEYBOARD_NAME
-    default "corne"
+    default "chocorne"
 
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
 
 endif
 
-if SHIELD_CORNE_LEFT || SHIELD_CORNE_RIGHT
+if SHIELD_chocorne_LEFT || SHIELD_chocorne_RIGHT
 
 config ZMK_SPLIT
     default y
