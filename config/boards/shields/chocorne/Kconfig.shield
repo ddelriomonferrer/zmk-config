@@ -1,5 +1,5 @@
-config SHIELD_chocorne_LEFT
+config SHIELD_CHOCORNE_LEFT
     def_bool $(shields_list_contains,chocorne_left)
 
-config SHIELD_chocorne_RIGHT
+config SHIELD_CHOCORNE_RIGHT
     def_bool $(shields_list_contains,chocorne_right)

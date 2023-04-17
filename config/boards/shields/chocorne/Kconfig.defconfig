@@ -1,14 +1,14 @@
-if SHIELD_KPUK_RIGHT
+if SHIELD_CHOCORNE_RIGHT
 
 config ZMK_KEYBOARD_NAME
-    default "chocorne"
+    default "CHOCORNE"
 
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
 
 endif
 
-if SHIELD_chocorne_LEFT || SHIELD_chocorne_RIGHT
+if SHIELD_CHOCORNE_LEFT || SHIELD_CHOCORNE_RIGHT
 
 config ZMK_SPLIT
     default y
