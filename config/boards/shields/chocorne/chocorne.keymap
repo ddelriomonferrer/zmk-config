@@ -27,23 +27,6 @@
             bindings = <&kp>, <&kp>;
         };
 
-        hm: hold_tap_mods_standard {
-            compatible = "zmk,behavior-hold-tap";
-            label = "HOLD_TAP_TAP_PREF";
-            #binding-cells = <2>;
-            tapping-term-ms = <200>;
-            flavor = "tap-preferred";
-            bindings = <&kp>, <&kp>;
-        };
-
-        tdj: tap_dance_1 {
-            compatible = "zmk,behavior-tap-dance";
-            label = "TAP_DANCE_1";
-            #binding-cells = <0>;
-            tapping-term-ms = <175>;
-            bindings = <&kp J>, <&kp ESC>;
-        };
-
     };
 
     keymap {
@@ -55,8 +38,8 @@
         default_layer {
             bindings = <
                 &kp GRAVE &kp Q   &kp W        &kp E       &kp R       &kp T         &kp Y            &kp U          &kp I            &kp O           &kp P     &kp LBKT
-                &kp RBKT  &kp A   &kp S        &kp D       &kp F       &kp G         &kp H            &tdj           &kp K            &kp L           &kp SEMI  &kp QUOT
-                &kp Z     &kp Z   &hm LCTRL X  &hm LGUI C  &hm LALT V  &kp B         &kp N            &hm LALT M     &hm RGUI COMMA   &hm RCTRL DOT   &kp FSLH	&kp QUOT
+                &kp RBKT  &kp A   &kp S        &kp D       &kp F       &kp G         &kp H            &kp J          &kp K            &kp L           &kp SEMI  &kp QUOT
+                &kp Z     &kp Z   &ht LCTRL X  &ht LGUI C  &ht LALT V  &kp B         &kp N            &ht LALT M     &ht RGUI COMMA   &ht RCTRL DOT   &kp FSLH	&kp QUOT
                                   &kp Z        &lt NUM_L TAB  &ht LSHFT SPACE        &ht RSHFT ENTER  &lt SYM_L BKSP	&kp Z
                 >;
         };
@@ -68,7 +51,7 @@
             bindings = <
                 &trans &kp MINUS        &kp EQUAL         &kp LS(MINUS)    &kp LS(PLUS)     &kp RBRC      &kp STAR  &kp LS(N7)       &kp UARW         &kp LS(BSLH)     &kp LS(N6) &trans
                 &trans &kp LS(W)        &kp LS(E)         &kp LS(N9)       &kp LS(N0)       &kp LS(QUOT)  &kp QUOT  &kp LARW         &kp DARW         &kp RARW         &kp LS(N4) &trans
-                &trans &kp TILDE        &hm LCTRL LS(N1)  &hm LGUI LS(N2)  &hm LALT BSLH    &kp LS(N3)    &kp RBKT  &hm LALT LBKT    &hm RGUI LS(N5)  &hm RCTRL LBRC   &mo FUN_L	&trans 
+                &trans &kp TILDE        &ht LCTRL LS(N1)  &ht LGUI LS(N2)  &ht LALT BSLH    &kp LS(N3)    &kp RBKT  &ht LALT LBKT    &ht RGUI LS(N5)  &ht RCTRL LBRC   &mo FUN_L	&trans 
                                                                   &trans     &trans &trans              &bootloader &trans	&trans 
             >;
         };
@@ -79,7 +62,7 @@
             bindings = <
                 &trans &kp C_VOL_UP  &kp LA(N7)  &kp LA(N8)  &kp LA(N9)   &kp KP_PLUS           &kp KP_MULTIPLY  &kp N7       &kp N8       &kp N9        &kp LS(N5) &trans
                 &trans &kp C_VOL_DN  &kp LA(N4)  &kp LA(N5)  &kp LA(N6)   &kp KP_EQUAL          &kp KP_MINUS     &kp N4       &kp N5       &kp N6        &kp N0     &trans
-                &trans &kp C_MUTE    &kp LA(N1)  &kp LA(N2)  &kp LA(N3)   &kp BSLH              &kp KP_SLASH     &hm LALT N1  &hm RGUI N2  &hm RCTRL N3  &kp KP_DOT	&trans 
+                &trans &kp C_MUTE    &kp LA(N1)  &kp LA(N2)  &kp LA(N3)   &kp BSLH              &kp KP_SLASH     &ht LALT N1  &ht RGUI N2  &ht RCTRL N3  &kp KP_DOT	&trans 
                                                            &trans  &trans &bootloader           &trans &trans	&trans 
             >;
         };
