@@ -48,7 +48,7 @@
 		lower_layer {
 			bindings = <
 				&kp LS(GRAVE)	&kp LS(N1)		&kp LS(N2)	  	&kp LS(N3)		&kp LS(N4)		&kp LS(N5)	  			&kp LS(N6)		&kp LS(N7)		&kp LS(N8)		&kp LS(N9)		&kp LS(N0)	&kp LBKT
-				&kp RALT(GRAVE)	&kp RALT(N1)	&kp RALT(N2)  	&kp RALT(N3)	&kp RALT(N4)	&kp RALT(N5)			&kp RALT(N6)	&kp LS(RBKT)	&kp LS(EQUAL)	&kp LS(MINUS) 	&kp	EQUAL	&kp MINUS	
+				&kp RA(GRAVE)	&kp RA(N1)		&kp RA(N2)  	&kp RA(N3)		&kp RA(N4)		&kp RA(N5)				&kp RA(N6)		&kp LS(RBKT)	&kp LS(EQUAL)	&kp LS(MINUS) 	&kp	EQUAL	&kp MINUS	
 				&bootloader		&kp trans		&kp trans		&kp BSLH		&kp trans		&kp LG(LS(S))			&kp trans		&kp trans		&kp trans		&kp trans		&kp trans	&kp trans
 																&kp LBKT		&kp ENTER		&kp trans				&kp SPACE		&kp trans 		&kp trans 
 
