@@ -38,7 +38,7 @@
                 &kp TAB   	&kp Q   	&kp W        &kp E       &kp R         &kp T         		&kp Y		&kp U		  &kp I			 &kp O		&kp P     		&kp BKSP
                 &kp ESC   	&ht LGUI A  &ht LALT S   &ht LCTRL D &ht LSHIFT F  &kp G         		&kp H		&ht RSHIFT J  &ht RCONTRL K	 &ht LALT L	&ht LGUI COLON  &kp QUOT
                 &kp LSHIFT  &kp Z   	&kp X 		 &kp C		 &kp V 		   &kp B         		&kp N       &kp M     	  &kp COMMA 	 &kp DOT    &kp FSLH  		&kp ENTER
-                                                     &kp LCTRL   &ht NUM_L	   SPACE                &ht RSHFT   &kp SPACE 	  &kp BKSP
+                                                     &kp LCTRL   &ht NUM_L	   SPACE                &ht RAI_L   &kp SPACE 	  &kp BKSP
                 >;
         };
 
