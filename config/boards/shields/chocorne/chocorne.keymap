@@ -15,7 +15,7 @@
 #define FUN_L 4
 
 
-{
+/	{
 	behaviors {
 		ht: hold_tap_mods_standard {
 			compatible = "zmk,behavior-hold-tap";
