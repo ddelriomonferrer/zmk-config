@@ -6,9 +6,6 @@
 
 #include "chocorne.dtsi"
 
-//    col_pins = (board.D0,board.D1,board.D2,board.D3,board.D4,board.D5)
-//    row_pins = (board.D10,board.D9,board.D8,board.D7)
-
 &kscan0 {
     col-gpios
         = <&xiao_d 0 GPIO_ACTIVE_HIGH>

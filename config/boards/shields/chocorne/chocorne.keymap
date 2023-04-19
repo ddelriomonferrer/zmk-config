@@ -59,7 +59,7 @@
                 &trans &kp MINUS        &kp EQUAL         &kp LS(MINUS)    &kp LS(PLUS)     &kp RBRC      &kp STAR  &kp LS(N7)       &kp UARW         &kp LS(BSLH)     &kp LS(N6) &trans
                 &trans &kp LS(W)        &kp LS(E)         &kp LS(N9)       &kp LS(N0)       &kp LS(QUOT)  &kp QUOT  &kp LARW         &kp DARW         &kp RARW         &kp LS(N4) &trans
                 &trans &kp TILDE        &ht LCTRL LS(N1)  &ht LGUI LS(N2)  &ht LALT BSLH    &kp LS(N3)    &kp RBKT  &ht LALT LBKT    &ht RGUI LS(N5)  &ht RCTRL LBRC   &mo FUN_L	&trans 
-                                                                  &trans     &trans &trans              &bootloader &trans	&trans 
+                                                                  &trans     &trans &trans              &trans	&bootloader &trans 
             >;
         };
 
