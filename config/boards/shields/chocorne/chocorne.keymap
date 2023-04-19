@@ -48,7 +48,8 @@
 				&kp RA(GRAVE)	&kp RA(N1)		&kp RA(N2)  	&kp RA(N3)		&kp RA(N4)		&kp RA(N5)				&kp RA(N6)		&kp LS(RBKT)	&kp LS(EQUAL)	&kp LS(MINUS) 	&kp	EQUAL	&kp MINUS	
 //				&bootloader		&kp trans		&kp trans		&kp BSLH		&kp trans		&kp LG(LS(S))			&kp trans		&kp trans		&kp trans		&kp trans		&kp trans	&kp trans
 				&trans &kp TILDE		&ht LCTRL LS(N1)  &ht LGUI LS(N2)  &ht LALT BSLH	&kp LS(N3)	  &kp RBKT	&ht LALT LBKT	 &ht RGUI LS(N5)  &ht RCTRL LBRC   &mo FUN_L	&trans	&trans 
-																&kp LBKT		&kp ENTER		&kp trans				&kp SPACE		&kp trans 		&kp trans 
+//																&kp LBKT		&kp ENTER		&kp trans				&kp SPACE		&kp trans 		&kp trans 
+																  &trans	 &trans &trans				&trans	&trans &bootloader 
 			>;
 		};
 
