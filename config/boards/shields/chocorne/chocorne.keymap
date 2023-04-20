@@ -77,7 +77,7 @@
 			bindings = <
 				&kp TAB			&trans			&trans			&trans			&trans			&trans					&trans			&kp HOME		&kp UP			&kp END			&trans			&kp BKSP
 				&kp ESC			&ht LGUI A		&ht LALT S	 	&ht LCTRL D 	&ht LSHIFT F  	&trans					&trans			&kp LEFT		&kp DOWN		&kp RIGHT		&trans			&trans
-				&trans			&trans			&trans			&trans			&trans			&trans					&trans			&kp PAGE_UP		&trans			&kp PG_DOWN		&trans			&trans
+				&trans			&trans			&trans			&trans			&trans			&trans					&trans			&kp PAGE_UP		&trans			&kp PAGE_DOWN	&trans			&trans
 																&trans  		&trans 			&trans					&trans			&trans			&trans
 			>;
 		};
