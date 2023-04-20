@@ -19,10 +19,11 @@
 	behaviors {
 		ht: hold_tap_mods_standard {
 			compatible = "zmk,behavior-hold-tap";
-			label = "HOLD_TAP_PREF";
+			label = "HOMEROW_MODS";
 			#binding-cells = <2>;
-			tapping-term-ms = <100>;
-			flavor = "hold-preferred";
+			tapping-term-ms = <200>;
+			quick-tap-ms = <0>;
+			flavor = "tap-preferred"";
 			bindings = <&kp>, <&kp>;
 		};
 
