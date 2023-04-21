@@ -86,9 +86,9 @@
 
 		ble_layer {
 			bindings = <
-				&tran			&bt BT_SEL 1	&bt BT_SEL 2	&bt BT_SEL 3	&bt BT_SEL 4	&bt BT_SEL 5			&trans			&tran			&tran			&tran			&trans			&trans
-				&tran			&tran			&tran			&tran			&tran			&tran					&tran			&bt BT_CLR		&bt BT_PRV		&bt BT_NXT		&tran			&trans
-				&bootloader		&tran			&tran			&tran			&tran			&tran					&tran			&tran			&tran			&tran			&trans			&bootloader
+				&trans			&bt BT_SEL 1	&bt BT_SEL 2	&bt BT_SEL 3	&bt BT_SEL 4	&bt BT_SEL 5			&trans			&trans			&trans			&trans			&trans			&trans
+				&trans			&trans			&trans			&trans			&trans			&trans					&trans			&bt BT_CLR		&bt BT_PRV		&bt BT_NXT		&trans			&trans
+				&bootloader		&trans			&trans			&trans			&trans			&trans					&trans			&trans			&trans			&trans			&trans			&bootloader
 																&trans  		&trans 			&trans					&trans			&trans			&trans
 			>;
 		};
