@@ -1,7 +1,7 @@
 if SHIELD_CHOCORNE_LEFT
 
 config ZMK_KEYBOARD_NAME
-    default "CHOCORNE"
+    default "chockeeb"
 
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
