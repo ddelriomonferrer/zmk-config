@@ -29,7 +29,7 @@
 		};
 
         // hold-tap slow
-		hts: hold_tap_mods_standard {
+		hts: hold_tap_mods_slow {
 			compatible = "zmk,behavior-hold-tap";
 			label = "HOMEROW_MODS";
 			#binding-cells = <2>;
