@@ -29,6 +29,16 @@
 			bindings = <&kp>, <&kp>;
 		};
 
+		htf: hold_tap_mods_standard {
+			compatible = "zmk,behavior-hold-tap";
+			label = "HOMEROW_MODS";
+			#binding-cells = <2>;
+			tapping-term-ms = <190>;
+			quick-tap-ms = <300>;
+			flavor = "tap-preferred";
+			bindings = <&kp>, <&kp>;
+		};
+
         // hold-tap slow
 		hts: hold_tap_mods_slow {
 			compatible = "zmk,behavior-hold-tap";
@@ -49,7 +59,7 @@
 		default_layer {
 			bindings = <
 				&kp TAB			&kp Q			&kp W		 	&kp E		 	&kp R		   	&kp T					&kp Y			&kp U		  	&kp I			&kp O			&kp P			&kp BKSP
-				&lt ARR_L ESC	&hts LGUI A		&ht LALT S	 	&ht LCTRL D 	&ht LSHIFT F  	&kp G					&kp H			&ht RSHIFT J  	&ht RCTRL K		&ht LALT L		&hts LGUI SEMI	&kp QUOT
+				&lt ARR_L ESC	&hts LGUI A		&ht LALT S	 	&ht LCTRL D 	&htf LSHIFT F  	&kp G					&kp H			&htf RSHIFT J  	&ht RCTRL K		&ht LALT L		&hts LGUI SEMI	&kp QUOT
 				&kp LSHIFT		&kp Z			&kp X		 	&kp C		 	&kp V		   	&kp B					&kp N			&kp M		  	&kp COMMA		&kp DOT			&kp FSLH		&kp ENTER
 																&kp LCTRL	 	&mo NUM_L	   	&mo LOW_L				&mo RAI_L		&kp SPACE	  	&mo BLE_L
 			>;
