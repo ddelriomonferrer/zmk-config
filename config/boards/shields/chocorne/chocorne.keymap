@@ -28,8 +28,9 @@
 			flavor = "tap-preferred";
 			bindings = <&kp>, <&kp>;
 		};
-
-		htf: hold_tap_mods_standard {
+        
+        // hold-tap fast
+		htf: hold_tap_mods_fast {
 			compatible = "zmk,behavior-hold-tap";
 			label = "HOMEROW_MODS";
 			#binding-cells = <2>;
